@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family= Delicious +Handdrawn & display=swap');
+
+body
+{
+    width: 100%; /* esse é o padrão que geralte o stilo do body tem*/
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    margin: 0px; background-color: rgba(82, 94, 90, 0.858);
+}
+.tabuleiro 
+{
+    width: 600px;
+    height: 600px;
+    background-image: radial-gradient( lightskyblue,blue);
+    border-style: solid; 
+    border-color: rgb(0, 0, 0); /*estilo da borda e a cor*/
+    display: flex;
+    flex-direction: column ; /*colocar em linha*/
+    justify-content: space-around;
+}
+.linhavermelha 
+{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row ; /*colocar em linha*/
+    justify-content: space-around;/*separar na mesma distancia*/
+}
+.celula
+{
+    width: 140px;
+    height: 140px;
+    border-style: solid; border-color: rgb(255, 255, 255);
+    background-color: rgb(249, 249, 244);
+    box-shadow: 2px 2px grey;
+    /*letra*/
+    font-size: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    font-family: 'Delicious Handrawn', cursive;
+    cursor: pointer;
+
+}
